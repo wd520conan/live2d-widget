@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/wd520conan/live2d-widget@1.4/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -34,7 +34,7 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/Fog-Forest/live2d@master/live2d_api/"
+			cdnPath: "https://cdn.jsdelivr.net/gh/wd520conan/live2d@master/live2d_api/"
 		});
 	});
 }
